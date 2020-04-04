@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "978630887777",
+    "firebase_url": "https://covid19-a36e8.firebaseio.com",
+    "project_id": "covid19-a36e8",
+    "storage_bucket": "covid19-a36e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978630887777:android:b46e4f51aa0004d86b5d20",
+        "android_client_info": {
+          "package_name": "com.arsalan.covid19statistics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "978630887777-t1quljra0ph4ngtp11mvnpi1501l382e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGKx_cpFgSydGzZG2QIryMNEP0Mgx1SKE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "978630887777-t1quljra0ph4ngtp11mvnpi1501l382e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

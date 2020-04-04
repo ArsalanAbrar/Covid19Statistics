@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/llopenbets"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fbfbfb"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvopen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginRight="@dimen/_8sdp"
+        android:layout_marginBottom="@dimen/_3sdp"
+        android:padding="@dimen/_15sdp"
+        app:cardBackgroundColor="#f4f4f4"
+        app:cardCornerRadius="@dimen/_4sdp"
+        app:cardElevation="@dimen/_4sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/_10sdp">
+
+                <TextView
+                    android:id="@+id/tvdate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:letterSpacing="0.01"
+                    android:text="INDIA Vs AUSTRALIA"
+                    android:textColor="#993c3c3c"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tvtime"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:letterSpacing="0.01"
+                    android:text="INDIA Vs AUSTRALIA"
+                    android:textColor="#993c3c3c"
+                    android:textSize="14sp" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvcountryname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:letterSpacing="0.01"
+                android:lineSpacingExtra="8sp"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingRight="@dimen/_5sdp"
+                android:text="How Many Runs Kohli will score today ?"
+                android:textColor="#0e0e0e"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/_5sdp"
+                android:paddingTop="@dimen/_10sdp"
+                android:paddingRight="@dimen/_10sdp"
+                android:paddingBottom="@dimen/_10sdp">
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/lottie_open"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    app:lottie_autoPlay="true"
+                    app:lottie_fileName="radar.json"
+                    app:lottie_loop="true"></com.airbnb.lottie.LottieAnimationView>
+
+                <TextView
+                    android:id="@+id/tvtotalcase"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/_6sdp"
+                    android:textSize="14sp"></TextView>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvdetail"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_3sdp"
+        android:padding="@dimen/_15sdp"
+        app:cardBackgroundColor="#f4f4f4"
+        app:cardCornerRadius="@dimen/_4sdp"
+        app:cardElevation="@dimen/_4sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/_5sdp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:letterSpacing="0.01"
+                    android:text="New Cases"
+                    android:textColor="#993c3c3c"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tvnewcases"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:letterSpacing="0.01"
+                    android:text="INDIA Vs AUSTRALIA"
+                    android:textColor="#8B0000"
+                    android:textSize="14sp" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/_5sdp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:letterSpacing="0.01"
+                    android:text="Active"
+                    android:textColor="#993c3c3c"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tvactive"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:letterSpacing="0.01"
+                    android:text="INDIA Vs AUSTRALIA"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/_5sdp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:letterSpacing="0.01"
+                    android:text="Critical"
+                    android:textColor="#993c3c3c"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tvcritical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+
+                    android:letterSpacing="0.01"
+                    android:text="INDIA Vs AUSTRALIA"
+                    android:textColor="#FF6347"
+                    android:textSize="14sp" />
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/_5sdp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:letterSpacing="0.01"
+                    android:text="Recovered"
+                    android:textColor="#993c3c3c"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tvrecovered"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:letterSpacing="0.01"
+                    android:text="INDIA Vs AUSTRALIA"
+                    android:textColor="#00FF00"
+                    android:textSize="14sp" />
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/_5sdp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:letterSpacing="0.01"
+                    android:text="New Death"
+                    android:textColor="#993c3c3c"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tvnewdeath"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:letterSpacing="0.01"
+                    android:text="INDIA Vs AUSTRALIA"
+                    android:textColor="#8B0000"
+                    android:textSize="14sp" />
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/_5sdp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:letterSpacing="0.01"
+                    android:text="Total Death"
+                    android:textColor="#993c3c3c"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tvtotaldeath"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:letterSpacing="0.01"
+                    android:text="INDIA Vs AUSTRALIA"
+                    android:textColor="#8B0000"
+                    android:textSize="14sp" />
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>
