@@ -3,7 +3,6 @@
     package="com.arsalan.covid19statistics">
 
     <uses-permission android:name="android.permission.INTERNET" />
-
     <application
         android:name=".VolleyNetwork.AppController"
         android:allowBackup="true"
@@ -36,5 +35,4 @@
             </intent-filter>
         </receiver>
     </application>
-
 </manifest>

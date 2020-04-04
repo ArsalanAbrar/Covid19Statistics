@@ -185,7 +185,7 @@ public class WorldStatisticActivity extends AppCompatActivity {
                 Map<String, String> headers = new HashMap<>();
 //                headers.put("Content-Type", "application/json");
                 headers.put("x-rapidapi_host", "covid-193.p.rapidapi.com");
-                headers.put("x-rapidapi-key", "b3ea279aa8msh89d0569e2c71580p19398ejsn7f9159b89e76");
+                headers.put("x-rapidapi-key", "");
                 return headers;
             }
 
